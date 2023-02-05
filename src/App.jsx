@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import boxes from "./boxes";
 import Box from "./components/Box";
+import "./App.css";
 
 export default function App() {
   const [squares, setSquares] = React.useState(boxes);
